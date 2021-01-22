@@ -14,7 +14,7 @@
 - /helloYou2: saluta utente per nome (stessa varbile, stessa view, ma nome diverso) in inglese -->
 
     <div class="container">
-        <h1>Ciao {{$name}}</h1>
+        <h1>Hello {{$name}}</h1>
     </div>
     
 </body>

@@ -37,3 +37,10 @@ Route::get('/helloYou2', function() {
             'name' => 'Federico'
         ]);
 });
+
+// /holaTodo: saluta tutti gli utenti in spagnolo
+Route::get('/holaTodo', 'MainController@hola');
+///holaTu: saluta utente per nome (variabile) in spagnolo
+Route::get('/holaTu', 'MainController@hola1');
+///holaTu2: saluta utente per nome (stessa varbile, stessa view, ma nome diverso) in spagnolo
+Route::get('/holaTu2', 'MainController@hola2');
